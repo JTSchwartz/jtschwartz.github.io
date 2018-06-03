@@ -6,7 +6,7 @@
     <meta name="viewporet" content="width=device-width, initial-scale=1">
 
     <!-- jQuery CDN -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- Popper.js CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -16,15 +16,16 @@
 
     <!-- Schwartz Theme -->
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="shortcut icon" type="image/png" href="img/favico.png"/>
 
     <title>Jacob Schwartz</title>
 </head>
 
-<body>
+<body style="height: 100vh;">
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <div class="navbar-brand text-secondary"><strong>Jacob Schwartz</strong></div>
+            <div class="navbar-brand"><strong>Jacob Schwartz</strong></div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -53,29 +54,69 @@
                             <a class="dropdown-item" href="#">Something else here</a>
                         </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown link
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
                 </ul>
             </div>
         </nav>
     </header>
 
     <article>
-        Hello World
+        <div class="row no-gutters">
+            <div class="col-2 bg-light">&nbsp;</div>
+            <div class="col-8">
+                <div class="container-fluid" style="background-color: black; color: #008700; font-family: 'Lucida Console',sans-serifserif">
+                    <br/>
+                    <strong>></strong> <span id="terminal"></span><strong>|</strong>
+                    <br/><br/><br/><br/><br/>&nbsp;
+
+                    <script>
+                        $(function () {
+                            setInterval(terminalWrite, 625);
+                        })
+
+                        var terminal = document.getElementById("terminal");
+                        var i = 0; j = 0;
+                        var arr = ["Java", "Kotlin", "R", "HTML", "CSS", "JavaScript", "Linux", "Windows", "macOS"];
+
+                        function terminalWrite() {
+                            var str = $("#terminal").text();
+
+                            if(j >= arr.length) {
+                                j = 0;
+                            }
+
+                            if( i >= 0 && i < arr[j].length) {
+                                terminal.append(arr[j].charAt(i));
+                                i++;
+                            } else if (i >= arr[j].length) {
+                                str = str.substr(0, str.length -1);
+                                $("#terminal").text(str);
+                                i--;
+                                i *= -1;
+                            } else if (i < 0) {
+                                str = str.substr(0, str.length -1);
+                                $("#terminal").text(str);
+                                i++;
+                            }
+
+                            if(i == 0) {
+                                j++;
+                            }
+                        }
+                    </script>
+                </div>
+                <div class="container-fluid bg-primary">&nbsp;</div>
+                <div class="container-fluid">
+                    <h2>Welcome</h2>
+                </div>
+            </div>
+            <div class="col-2 bg-light">&nbsp;</div>
+        </div>
     </article>
+
+    <footer>
+        <div class="container-fluid bg-primary text-secondary text-right position-absolute" style="padding: .25rem .5rem; bottom: 0;">
+            <h6>&reg; Jacob Schwartz</h6>
+        </div>
+    </footer>
 </body>
 </html>
