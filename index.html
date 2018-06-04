@@ -35,7 +35,10 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Re&sacute;ume<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Re&sacute;ume</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCurrent" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -57,6 +60,9 @@
                             <a class="dropdown-item" href="#">Something else here</a>
                         </div>
                     </li>
+                    <li class="nav-item">
+                        <a target="_blank" class="nav-link" href="mailto:jacob@jtschwartz.com">Contact Me</a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -66,31 +72,36 @@
         <div class="row no-gutters">
             <div class="col-2 bg-light">&nbsp;</div>
             <div class="col-8">
-                <div class="container-fluid" style="background-color: black; color: #008700; font-family: 'Lucida Console',sans-serifserif">
+                <div class="container-fluid " style="background-color: black; color: #28a745; font-family: 'Lucida Console',sans-serifserif">
                     <br/>
-                    <strong>></strong> <span id="terminal"></span><strong>|</strong>
+                    <strong>></strong> <span id="terminal"></span><strong id="cursor" class="text-white"><sub style="vertical-align: sub">&#9644;</sub></strong>
                     <br/><br/><br/><br/><br/>&nbsp;
 
                     <script>
                         $(function () {
                             setInterval(terminalWrite, 625);
+                            setInterval(cursorDisplay, 425);
                         })
 
                         var terminal = document.getElementById("terminal");
                         var i = 0; j = 0;
+                        var cDisp = true;
                         var arr = ["Java", "Kotlin", "R", "HTML", "CSS", "JavaScript", "Linux", "Windows", "macOS"];
 
                         function terminalWrite() {
                             var str = $("#terminal").text();
 
-                            if(j >= arr.length) {
+                            if (j >= arr.length) {
                                 j = 0;
                             }
 
-                            if( i >= 0 && i < arr[j].length) {
+                            if (i >= 0 && i < arr[j].length) {
                                 terminal.append(arr[j].charAt(i));
                                 i++;
-                            } else if (i >= arr[j].length) {
+                            } else if (i < arr[j].length + 3 && i > 0) {
+                                i++;
+                                console.log(i);
+                            }else if (i >= arr[j].length + 3) {
                                 str = str.substr(0, str.length -1);
                                 $("#terminal").text(str);
                                 i--;
@@ -101,31 +112,82 @@
                                 i++;
                             }
 
+                            $("#cursor").css("display", "inline");
+
                             if(i == 0) {
                                 j++;
                             }
+                        }
+
+                        function cursorDisplay() {
+                            if(cDisp) {
+                                $("#cursor").css("display", "none");
+                            } else {
+                                $("#cursor").css("display", "inline");
+                            }
+
+                            cDisp = !cDisp;
+                        }
+
+                        function sleep(delay) {
+                            var start = new Date().getTime();
+                            while (new Date().getTime() < start + delay);
                         }
                     </script>
                 </div>
                 <div class="container-fluid bg-primary">&nbsp;</div>
                 <div class="container-fluid">
                     <h2>Welcome</h2>
+                    <p class="lead">
+                        This is the web home of Jacob Schwartz. Included on this site you will find a wide variety of items, including my: Re&sacute;ume, descriptions and possibly links to Current and Past Projects, and more information about myself that will help to explain who I am, and what I do.
+                    </p>
+                    <p class="lead">
+                        Below are a list of the languages and technologies I am knowledgeable in, a brief description of what they are and how they are useful in the field of Software and Web Development, as well as an indication in my experience in the language/technology, in relation to itself, not compared to the others:
+                    </p>
                     <hr/>
                     <div class="row text-center">
                         <div class="col-4">
                             <i class="fab fa-html5 fa-6x"></i>
                             <hr/>
-                            <strong>HTML5</strong>
+                            <h4>HTML5</h4>
+                            <p>
+                                <abbr title="Hypertext Markup Language">HTML</abbr> is the standard and most popular markup language used in developing web pages and web-based applications.
+                            </p>
                         </div>
                         <div class="col-4">
                             <i class="fab fa-css3-alt fa-6x"></i>
                             <hr/>
-                            <strong>CSS3</strong>
+                            <h4>CSS3</h4>
+                            <p>
+                                <abbr title="Cascading Stylesheets">CSS</abbr> is a stylesheet language used for styling the visual aspect of a document written in a markup language, such as HTML or PHP.
+                            </p>
                         </div>
                         <div class="col-4">
                             <i class="fab fa-js-square fa-6x"></i>
                             <hr/>
-                            <strong>JavaScript</strong>
+                            <h4>JavaScript</h4>
+                            <p>
+                                JavaScript is a high-level, client-side programming language, most often used to create web applications or add dynamic elements in HTML-based web pages.
+                            </p>
+                        </div>
+                        <!-- WebDev Experience Row -->
+                        <!-- HTML -->
+                        <div class="col-4">
+                            <p>
+                                <strong>Experience: </strong> 5/5<br/><em class="small">(CIW Site Development Associate Certification)</em>
+                            </p>
+                        </div>
+                        <!-- CSS -->
+                        <div class="col-4">
+                            <p>
+                                <strong>Experience: </strong> 4/5<br/><em class="small">(CIW Site Development Associate Certification)</em>
+                            </p>
+                        </div>
+                        <!-- JavaScript -->
+                        <div class="col-4">
+                            <p>
+                                <strong>Experience: </strong> 2/5
+                            </p>
                         </div>
                         <!-- Breaker -->
                         <div class="col-12"><hr/></div>
@@ -133,17 +195,45 @@
                         <div class="col-4">
                             <i class="fab fa-java fa-6x"></i>
                             <hr/>
-                            <strong>Java</strong>
+                            <h4>Java</h4>
+                            <p>
+                                Java is a general-purpose, object-oriented, statically typed programming language and is among the most popular and wide used computer-languages in the world.
+                            </p>
                         </div>
                         <div class="col-4">
-                            <img class="align-middle" src="img/kotlin_logo.svg" alt="Kotlin Logo" height="85em"/>
+                            <img class="align-middle" src="img/kotlin_logo.svg" alt="Kotlin Logo" height="96em"/>
                             <hr/>
-                            <strong>Kotlin</strong>
+                            <h4>Kotlin</h4>
+                            <p>
+                                Kotlin is very similar language to Java, it was created as a more modern alternative, though it still heavily relies on Java in that it runs on the JVM and uses Java Class Libraries.
+                            </p>
                         </div>
                         <div class="col-4">
                             <i class="fab fa-r-project fa-6x"></i>
                             <hr/>
-                            <strong>R</strong>
+                            <h4>R</h4>
+                            <p>
+                                R is a statistical computing and graphics programming language, and is among the most popular languages used in data analysis.
+                            </p>
+                        </div>
+                        <!-- Programming Experience Row -->
+                        <!-- Java -->
+                        <div class="col-4">
+                            <p>
+                                <strong>Experience: </strong> 3/5
+                            </p>
+                        </div>
+                        <!-- Kotlin -->
+                        <div class="col-4">
+                            <p>
+                                <strong>Experience: </strong> 1/5
+                            </p>
+                        </div>
+                        <!-- R -->
+                        <div class="col-4">
+                            <p>
+                                <strong>Experience: </strong> 4/5
+                            </p>
                         </div>
                         <!-- Breaker -->
                         <div class="col-12"><hr/></div>
@@ -151,17 +241,45 @@
                         <div class="col-4">
                             <i class="fab fa-windows fa-6x"></i>
                             <hr/>
-                            <strong>Windows</strong>
+                            <h4>Windows</h4>
+                            <p>
+                                Windows is a graphical NT-based operating system, and is the most commonly used in personal computing
+                            </p>
                         </div>
                         <div class="col-4">
                             <i class="fab fa-linux fa-6x"></i>
                             <hr/>
-                            <strong>Linux</strong>
+                            <h4>Linux</h4>
+                            <p>
+                                Linux is an open-source operating system, with a wide variety of distributions. Because of this, it is heavily used in software development, and is the most popular OS used on servers.
+                            </p>
                         </div>
                         <div class="col-4">
                             <i class="fab fa-apple fa-6x"></i>
                             <hr/>
-                            <strong>macOS</strong>
+                            <h4>macOS</h4>
+                            <p>
+                                macOS (previously Mac OS X) is a graphical Unix-based operating system, used exclusively in Apple products, and is second to Windows in personal computing popularity.
+                            </p>
+                        </div>
+                        <!-- OS Experience Row -->
+                        <!-- Java -->
+                        <div class="col-4">
+                            <p>
+                                <strong>Experience: </strong> 5/5
+                            </p>
+                        </div>
+                        <!-- Kotlin -->
+                        <div class="col-4">
+                            <p>
+                                <strong>Experience: </strong> 2/5
+                            </p>
+                        </div>
+                        <!-- R -->
+                        <div class="col-4">
+                            <p>
+                                <strong>Experience: </strong> 4/5
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -171,8 +289,8 @@
     </article>
 
     <footer>
-        <div class="container-fluid bg-primary text-secondary text-right" style="padding: .25rem .5rem">
-            <h6>&reg; Jacob Schwartz</h6>
+        <div class="container-fluid bg-primary text-secondary text-right" style="padding: .3rem .5rem .05rem 0">
+            <h6 style="padding-bottom: 0">&reg; Jacob Schwartz</h6>
         </div>
     </footer>
 </body>
