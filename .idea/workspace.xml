@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d7c82b7b-d959-43ea-be35-7e93de2cd016" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +18,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="100" column="22" lean-forward="true" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
+            <state relative-caret-position="314">
+              <caret line="237" column="40" selection-start-line="237" selection-start-column="40" selection-end-line="237" selection-end-column="40" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#2186#2194#0" expanded="true" />
@@ -78,6 +76,17 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>\&lt;div class\=\&quot;row text\-center\&quot;\&gt;\n                        \&lt;div class\=\&quot;col\-4\&quot;\&gt;\n                            \&lt;i class\=\&quot;fab fa\-html5 fa\-6x\&quot;\&gt;\&lt;\/i\&gt;\n                            \&lt;hr\/\&gt;\n                            \&lt;h4\&gt;HTML5\&lt;\/h4\&gt;\n                            \&lt;p\&gt;\n                                \&lt;abbr title\=\&quot;Hypertext Markup Language\&quot;\&gt;HTML\&lt;\/abbr\&gt; is the standard and most popular markup language used in developing web pages and web\-based applications\.\n                            \&lt;\/p\&gt;\n                        \&lt;\/div\&gt;\n                        \&lt;div class\=\&quot;col\-4\&quot;\&gt;\n                            \&lt;i class\=\&quot;fab fa\-css3\-alt fa\-6x\&quot;\&gt;\&lt;\/i\&gt;\n                            \&lt;hr\/\&gt;\n                            \&lt;h4\&gt;CSS3\&lt;\/h4\&gt;\n                            \&lt;p\&gt;\n                                \&lt;abbr title\=\&quot;Cascading Stylesheets\&quot;\&gt;CSS\&lt;\/abbr\&gt; is a stylesheet language used for styling the visual aspect of a document written in a markup language\, such as HTML or PHP\.\n                            \&lt;\/p\&gt;\n                        \&lt;\/div\&gt;\n                        \&lt;div class\=\&quot;col\-4\&quot;\&gt;\n                            \&lt;i class\=\&quot;fab fa\-js\-square fa\-6x\&quot;\&gt;\&lt;\/i\&gt;\n                            \&lt;hr\/\&gt;\n                            \&lt;h4\&gt;JavaScript\&lt;\/h4\&gt;\n                            \&lt;p\&gt;\n                                JavaScript is a high\-level\, client\-side programming language\, most often used to create web applications or add dynamic elements in HTML\-based web pages\.\n                            \&lt;\/p\&gt;\n                        \&lt;\/div\&gt;\n                        \&lt;\!\-\- WebDev Experience Row \-\-\&gt;\n                        \&lt;\!\-\- HTML \-\-\&gt;\n                        \&lt;div class\=\&quot;col\-4\&quot;\&gt;\n                            \&lt;p\&gt;\n                                \&lt;strong\&gt;Experience\: \&lt;\/strong\&gt; 5\/5\&lt;br\/\&gt;\&lt;em class\=\&quot;small\&quot;\&gt;\(CIW Site Development Associate Certification\)\&lt;\/em\&gt;\n                            \&lt;\/p\&gt;\n                        \&lt;\/div\&gt;\n                        \&lt;\!\-\- CSS \-\-\&gt;\n                        \&lt;div class\=\&quot;col\-4\&quot;\&gt;\n                            \&lt;p\&gt;\n                                \&lt;strong\&gt;Experience\: \&lt;\/strong\&gt; 4\/5\&lt;br\/\&gt;\&lt;em class\=\&quot;small\&quot;\&gt;\(CIW Site Development Associate Certification\)\&lt;\/em\&gt;\n                            \&lt;\/p\&gt;\n                        \&lt;\/div\&gt;\n                        \&lt;\!\-\- JavaScript \-\-\&gt;\n                        \&lt;div class\=\&quot;col\-4\&quot;\&gt;\n                            \&lt;p\&gt;\n                                \&lt;strong\&gt;Experience\: \&lt;\/strong\&gt; 2\/5\n                            \&lt;\/p\&gt;\n                        \&lt;\/div\&gt;\n                        \&lt;\!\-\- Breaker \-\-\&gt;\n                        \&lt;div class\=\&quot;col\-12\&quot;\&gt;\&lt;hr\/\&gt;\&lt;\/div\&gt;\n                        \&lt;\!\-\- New Row \-\-\&gt;\n                        \&lt;div class\=\&quot;col\-4\&quot;\&gt;\n                            \&lt;i class\=\&quot;fab fa\-java fa\-6x\&quot;\&gt;\&lt;\/i\&gt;\n                            \&lt;hr\/\&gt;\n                            \&lt;h4\&gt;Java\&lt;\/h4\&gt;\n                            \&lt;p\&gt;\n                                Java is a general\-purpose\, object\-oriented\, statically typed programming language and is among the most popular and wide used computer\-languages in the world\.\n                            \&lt;\/p\&gt;\n                        \&lt;\/div\&gt;\n                        \&lt;div class\=\&quot;col\-4\&quot;\&gt;\n                            \&lt;img class\=\&quot;align\-middle\&quot; src\=\&quot;img\/kotlin_logo\.svg\&quot; alt\=\&quot;Kotlin Logo\&quot; height\=\&quot;96em\&quot;\/\&gt;\n                            \&lt;hr\/\&gt;\n                            \&lt;h4\&gt;Kotlin\&lt;\/h4\&gt;\n                            \&lt;p\&gt;\n                                Kotlin is very similar language to Java\, it was created as a more modern alternative\, though it still heavily relies on Java in that it runs on the JVM and uses Java Class Libraries\.\n                            \&lt;\/p\&gt;\n                        \&lt;\/div\&gt;\n                        \&lt;div class\=\&quot;col\-4\&quot;\&gt;\n                            \&lt;i class\=\&quot;fab fa\-r\-project fa\-6x\&quot;\&gt;\&lt;\/i\&gt;\n                            \&lt;hr\/\&gt;\n                            \&lt;h4\&gt;R\&lt;\/h4\&gt;\n                            \&lt;p\&gt;\n                                R is a statistical computing and graphics programming language\, and is among the most popular languages used in data analysis\.\n                            \&lt;\/p\&gt;\n                        \&lt;\/div\&gt;\n                        \&lt;\!\-\- Programming Experience Row \-\-\&gt;\n                        \&lt;\!\-\- Java \-\-\&gt;\n                        \&lt;div class\=\&quot;col\-4\&quot;\&gt;\n                            \&lt;p\&gt;\n                                \&lt;strong\&gt;Experience\: \&lt;\/strong\&gt; 3\/5\n                            \&lt;\/p\&gt;\n                        \&lt;\/div\&gt;\n                        \&lt;\!\-\- Kotlin \-\-\&gt;\n                        \&lt;div class\=\&quot;col\-4\&quot;\&gt;\n                            \&lt;p\&gt;\n                                \&lt;strong\&gt;Experience\: \&lt;\/strong\&gt; 1\/5\n                            \&lt;\/p\&gt;\n                        \&lt;\/div\&gt;\n                        \&lt;\!\-\- R \-\-\&gt;\n                        \&lt;div class\=\&quot;col\-4\&quot;\&gt;\n                            \&lt;p\&gt;\n                                \&lt;strong\&gt;Experience\: \&lt;\/strong\&gt; 4\/5\n                            \&lt;\/p\&gt;\n                        \&lt;\/div\&gt;\n                        \&lt;\!\-\- Breaker \-\-\&gt;\n                        \&lt;div class\=\&quot;col\-12\&quot;\&gt;\&lt;hr\/\&gt;\&lt;\/div\&gt;\n                        \&lt;\!\-\- New Row \-\-\&gt;\n                        \&lt;div class\=\&quot;col\-4\&quot;\&gt;\n                            \&lt;i class\=\&quot;fab fa\-windows fa\-6x\&quot;\&gt;\&lt;\/i\&gt;\n                            \&lt;hr\/\&gt;\n                            \&lt;h4\&gt;Windows\&lt;\/h4\&gt;\n                            \&lt;p\&gt;\n                                Windows is a graphical NT\-based operating system\, and is the most commonly used in personal computing\n                            \&lt;\/p\&gt;\n                        \&lt;\/div\&gt;\n                        \&lt;div class\=\&quot;col\-4\&quot;\&gt;\n                            \&lt;i class\=\&quot;fab fa\-linux fa\-6x\&quot;\&gt;\&lt;\/i\&gt;\n                            \&lt;hr\/\&gt;\n                            \&lt;h4\&gt;Linux\&lt;\/h4\&gt;\n                            \&lt;p\&gt;\n                                Linux is an open\-source operating system\, with a wide variety of distributions\. Because of this\, it is heavily used in software development\, and is the most popular OS used on servers\.\n                            \&lt;\/p\&gt;\n                        \&lt;\/div\&gt;\n                        \&lt;div class\=\&quot;col\-4\&quot;\&gt;\n                            \&lt;i class\=\&quot;fab fa\-apple fa\-6x\&quot;\&gt;\&lt;\/i\&gt;\n                            \&lt;hr\/\&gt;\n                            \&lt;h4\&gt;macOS\&lt;\/h4\&gt;\n                            \&lt;p\&gt;\n                                macOS \(previously Mac OS X\) is a graphical Unix\-based operating system\, used exclusively in Apple products\, and is second to Windows in personal computing popularity\.\n                            \&lt;\/p\&gt;\n                        \&lt;\/div\&gt;\n                        \&lt;\!\-\- OS Experience Row \-\-\&gt;\n                        \&lt;\!\-\- Java \-\-\&gt;\n                        \&lt;div class\=\&quot;col\-4\&quot;\&gt;\n                            \&lt;p\&gt;\n                                \&lt;strong\&gt;Experience\: \&lt;\/strong\&gt; 5\/5\n                            \&lt;\/p\&gt;\n                        \&lt;\/div\&gt;\n                        \&lt;\!\-\- Kotlin \-\-\&gt;\n                        \&lt;div class\=\&quot;col\-4\&quot;\&gt;\n                            \&lt;p\&gt;\n                                \&lt;strong\&gt;Experience\: \&lt;\/strong\&gt; 2\/5\n                            \&lt;\/p\&gt;\n                        \&lt;\/div\&gt;\n                        \&lt;\!\-\- R \-\-\&gt;\n                        \&lt;div class\=\&quot;col\-4\&quot;\&gt;\n                            \&lt;p\&gt;\n                                \&lt;strong\&gt;Experience\: \&lt;\/strong\&gt; 4\/5\n                            \&lt;\/p\&gt;\n                        \&lt;\/div\&gt;\n                    \&lt;\/div\&gt;\n</find>
+      <find>col-4</find>
+      <find>row</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>col-6</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -228,7 +237,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527982898070</updated>
-      <workItem from="1527982901408" duration="42484000" />
+      <workItem from="1527982901408" duration="43809000" />
     </task>
     <task id="LOCAL-00001" summary="Theme Color Updates">
       <created>1527988035228</created>
@@ -262,7 +271,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42484000" />
+    <option name="totallyTimeSpent" value="43809000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -284,13 +293,13 @@
       <window_info id="Designer" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3125" />
       <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -372,8 +381,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="100" column="22" lean-forward="true" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
+        <state relative-caret-position="314">
+          <caret line="237" column="40" selection-start-line="237" selection-start-column="40" selection-end-line="237" selection-end-column="40" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#2186#2194#0" expanded="true" />
