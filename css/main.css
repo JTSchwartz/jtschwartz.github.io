@@ -1,6 +1,9 @@
 p {
   padding: 0 .25rem; }
 
+body {
+  min-height: 100vh; }
+
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors

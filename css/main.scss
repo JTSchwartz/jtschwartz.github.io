@@ -17,6 +17,10 @@ p {
   padding: 0 .25rem;
 }
 
+body {
+  min-height: 100vh;
+}
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 html {
