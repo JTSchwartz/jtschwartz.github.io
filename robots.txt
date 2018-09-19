@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /resume/
+
+Sitemap: http://www.jtschwartz.com/sitemap/sitemap.xml
