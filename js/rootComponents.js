@@ -8,17 +8,17 @@ $(function () {
         '            <div class="collapse navbar-collapse" id="navbarNavDropdown">\n' +
         '                <ul class="navbar-nav mr-auto">\n' +
         '                    <li class="nav-item" id="home">\n' +
-        '                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>\n' +
+        '                        <a class="nav-link" href="https://jtschwartz.com">Home<span class="sr-only">(current)</span></a>\n' +
         '                    </li>\n' +
         '                    <li class="nav-item" id="resume">\n' +
-        '                        <a target="_blank" class="nav-link" href="resume/Resume.pdf">Re&sacute;ume</a>\n' +
+        '                        <a target="_blank" class="nav-link" href="https://jtschwartz.com/resume/Resume.pdf">Re&sacute;ume</a>\n' +
         '                    </li>\n' +
         '                    <li class="nav-item dropdown">\n' +
         '                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCurrent" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">\n' +
         '                            Current Projects\n' +
         '                        </a>\n' +
         '                        <div class="dropdown-menu" aria-labelledby="navbarDropdownCurrent">\n' +
-        '                            <a class="dropdown-item" href="SiteCrawler/">Site Crawler</a>\n' +
+        '                            <a class="dropdown-item" href="https://jtschwartz.com/SiteCrawler/">Site Crawler</a>\n' +
         '                        </div>\n' +
         '                    </li>\n' +
         '                    <li class="nav-item dropdown">\n' +
@@ -26,8 +26,8 @@ $(function () {
         '                            Past Projects\n' +
         '                        </a>\n' +
         '                        <div class="dropdown-menu" aria-labelledby="navbarDropdownPast">\n' +
-        '                            <a class="dropdown-item" href="3x3-Puzzle-Solver/">3x3 Grid Puzzle Solver</a>\n' +
-        '                            <a class="dropdown-item" href="C-Projects/">C Programs</a>\n' +
+        '                            <a class="dropdown-item" href="https://jtschwartz.com/3x3-Puzzle-Solver/">3x3 Grid Puzzle Solver</a>\n' +
+        '                            <a class="dropdown-item" href="https://jtschwartz.com/C-Projects/">C Programs</a>\n' +
         '                        </div>\n' +
         '                    </li>\n' +
         '                </ul>\n' +
