@@ -18,7 +18,7 @@ $(function () {
         '                            Current Projects\n' +
         '                        </a>\n' +
         '                        <div class="dropdown-menu" aria-labelledby="navbarDropdownCurrent">\n' +
-        '                            <a class="dropdown-item" href="https://jtschwartz.com/SiteCrawler/">Site Crawler</a>\n' +
+        '                            <a class="dropdown-item disabled" href="#">Creating a To Do List...</a>\n' +
         '                        </div>\n' +
         '                    </li>\n' +
         '                    <li class="nav-item dropdown">\n' +
@@ -28,6 +28,7 @@ $(function () {
         '                        <div class="dropdown-menu" aria-labelledby="navbarDropdownPast">\n' +
         '                            <a class="dropdown-item" href="https://jtschwartz.com/3x3-Puzzle-Solver/">3x3 Grid Puzzle Solver</a>\n' +
         '                            <a class="dropdown-item" href="https://jtschwartz.com/C-Projects/">C Programs</a>\n' +
+        '                            <a class="dropdown-item" href="https://jtschwartz.com/SiteCrawler/">Site Crawler</a>\n' +
         '                        </div>\n' +
         '                    </li>\n' +
         '                </ul>\n' +
