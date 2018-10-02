@@ -14,17 +14,13 @@ $(function () {
         '                        <a target="_blank" class="nav-link" href="https://jtschwartz.com/resume/Resume.pdf">Re&sacute;ume</a>\n' +
         '                    </li>\n' +
         '                    <li class="nav-item dropdown">\n' +
-        '                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCurrent" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">\n' +
-        '                            Current Projects\n' +
-        '                        </a>\n' +
+        '                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCurrent" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Current Projects</a>\n' +
         '                        <div class="dropdown-menu" aria-labelledby="navbarDropdownCurrent">\n' +
-        '                            <a class="dropdown-item disabled" href="#">Creating a To Do List...</a>\n' +
+        '                            <a id="emptyCur" class="dropdown-item disabled d-none" href="#">Creating a To Do List...</a>\n' +
         '                        </div>\n' +
         '                    </li>\n' +
         '                    <li class="nav-item dropdown">\n' +
-        '                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPast" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">\n' +
-        '                            Past Projects\n' +
-        '                        </a>\n' +
+        '                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPast" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Past Projects</a>\n' +
         '                        <div class="dropdown-menu" aria-labelledby="navbarDropdownPast">\n' +
         '                            <a class="dropdown-item" href="https://jtschwartz.com/3x3-Puzzle-Solver/">3x3 Grid Puzzle Solver</a>\n' +
         '                            <a class="dropdown-item" href="https://jtschwartz.com/C-Projects/">C Programs</a>\n' +
@@ -63,5 +59,9 @@ $(function () {
         $('#navbarDropdownCurrent').addClass("active");
     } else if (active == "past") {
         $('#navbarDropdownPast').addClass("active");
+    }
+
+    if($('[aria-labelledby=navbarDropdownCurrent] a:first').attr("id") == "emptyCur") {
+        $('#emptyCur').removeClass("d-none");
     }
 });
