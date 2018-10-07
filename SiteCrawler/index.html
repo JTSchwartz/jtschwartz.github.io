@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="activepage" content="past">
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <!-- Schwartz Theme -->
+    <link rel="stylesheet" type="text/css" href="https://jtschwartz.com/css/main.css"/>
+    <link rel="shortcut icon" type="image/png" href="https://jtschwartz.com/img/favico.png"/>
+
+    <!-- Internal JavaScript -->
+    <script src="https://jtschwartz.com/js/terminal.js" type="application/javascript"></script>
+    <script src="https://jtschwartz.com/js/rootComponents.js" type="application/javascript"></script>
+
+    <title>Jacob Schwartz</title>
+</head>
+
+<body>
+
+<article>
+    <div class="row no-gutters">
+        <div class="col-12">
+            <div class="container">
+                <br/>
+                <h2>Site Crawler</h2>
+                <p class="lead">
+                    This program was written for a CPS 470 Computer Networks course. This program uses multithreading to crawl any number of URLs, similar to how search engines such as Google and Yahoo work. Crawling in this case consists of connecting to the hosts, sending a HEAD request, and checking the response for presence of a robots.txt file. If one is not present the program will move forward with sending a GET request. Once the thread has hit the end of its run with it current URL, it will print the trace of what it did, and start over with the next URL in the list, if one exists. Once all queued URLs have been run through, the threads will return to their parent process, and the Runtime statistics, such as length of time to run, number of DNS lookups, robots.txt files found, total size of pages crawled, etc. The URLs that are run through are listed in a text file, each one on its own line. The amount of threads the program uses and what file it reads from are input as command line arguments.
+                </p>
+                <p class="float-left">
+                    Language: Python
+                </p>
+                <p class="float-right">
+                    <a target="_blank" href="https://github.com/JTSchwartz/SiteCrawler.git">https://github.com/JTSchwartz/SiteCrawler.git</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</article>
+
+<footer>
+    <div class="container-fluid bg-primary text-secondary text-right" style="padding: .3rem .5rem .05rem 0">
+        <h6 style="padding-bottom: 0">&reg; Jacob Schwartz</h6>
+    </div>
+</footer>
+</body>
+</html>
