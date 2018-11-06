@@ -25,6 +25,8 @@ $(function () {
         '                            <a class="dropdown-item" href="https://jtschwartz.com/3x3-Puzzle-Solver/">3x3 Grid Puzzle Solver</a>\n' +
         '                            <a class="dropdown-item" href="https://jtschwartz.com/C-Projects/">C Programs</a>\n' +
         '                            <a class="dropdown-item" href="https://jtschwartz.com/SiteCrawler/">Site Crawler</a>\n' +
+        '                            <a class="dropdown-item" href="https://jtschwartz.com/PythOS/">PythOS</a>\n' +
+        '                            <a class="dropdown-item" href="https://jtschwartz.com/DNS-Resolver/">DNS Resolver</a>\n' +
         '                        </div>\n' +
         '                    </li>\n' +
         '                </ul>\n' +

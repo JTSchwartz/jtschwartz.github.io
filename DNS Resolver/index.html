@@ -36,18 +36,18 @@
         <div class="col-12">
             <div class="container">
                 <br/>
-                <h2>Site Crawler</h2>
+                <h2>DNS Resolver</h2>
                 <p class="lead">
-                    This program was written for a CPS 470 Computer Networks course. This program uses multithreading to crawl any number of URLs, similar to how search engines such as Google and Yahoo work. Crawling in this case consists of connecting to the hosts, sending a HEAD request, and checking the response for presence of a robots.txt file. If one is not present the program will move forward with sending a GET request. Once the thread has hit the end of its run with it current URL, it will print the trace of what it did, and start over with the next URL in the list, if one exists. Once all queued URLs have been run through, the threads will return to their parent process, and the Runtime statistics, such as length of time to run, number of DNS lookups, robots.txt files found, total size of pages crawled, etc. The URLs that are run through are listed in a text file, each one on its own line. The amount of threads the program uses and what file it reads from are input as command line arguments.
+                    This program will determine the computers local DNS server, build and sent DNS Requests to the server, and interpret the first answer. It can create and send A and PTR records and can interpret both, as well as CNAME records. If an A record is requested and the answer contains a CNAME record, it will interpret the CNAME as well the first A record. The program can run in interactive mode or batch mode, for interactive, build and run the exe, and run it will a URL or IP as an argument. For batch mode, run the exe (with a dns-in.txt file in the directory) with a positive integer for the number of threads it should run with as an argument. dns-in.txt must have one URL/IP per line. Batch mode will then create a dns-out.txt.
                 </p>
                 <p class="float-left">
                     Language: Python
                 </p>
                 <p class="float-right">
-                    <a target="_blank" href="https://github.com/JTSchwartz/SiteCrawler.git">https://github.com/JTSchwartz/SiteCrawler.git</a>
+                    <a target="_blank" href="https://github.com/JTSchwartz/DNS-Resolver">https://github.com/JTSchwartz/DNS-Resolver</a>
                 </p>
             </div>
-        </div>
+      </div>
     </div>
 </article>
 
