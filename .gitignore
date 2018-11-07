@@ -1,5 +1,7 @@
-Personal Site.iml
 .idea/
+node_modules/
+Personal Site.iml
 site.iml
 package.json
 package-lock.json
+

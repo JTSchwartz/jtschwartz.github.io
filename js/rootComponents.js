@@ -1,6 +1,6 @@
 $(function () {
-    $('body').prepend(' <header>\n' +
-        '        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">\n' +
+    $('body').prepend(' <header class="sticky-top">\n' +
+        '        <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-primary">\n' +
         '            <div class="navbar-brand"><strong>Jacob Schwartz</strong></div>\n' +
         '            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">\n' +
         '                <span class="navbar-toggler-icon"></span>\n' +
