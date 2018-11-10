@@ -1,7 +1,7 @@
 $(function () {
     setInterval(terminalWrite, 625);
     setInterval(cursorDisplay, 425);
-})
+});
 
 var terminal = document.getElementById("terminal");
 var i = 0; var j = 0;
