@@ -44,9 +44,9 @@ $(function () {
 		'                <ul class="navbar-nav d-md-none">\n' +
 		'                    <li class="nav-item">\n' +
 		'                        <hr/>\n' +
-		'                        <a target="_blank" class="nav-link pr-2" style="display: inline-block !important;" href="mailto:jacob@jtschwartz.com"><i class="fas fa-envelope-square fa-2x"></i></a>\n' +
-		'                        <a target="_blank" class="nav-link px-2" style="display: inline-block !important;" href="https://www.linkedin.com/in/jacob-t-schwartz"><i class="fab fa-linkedin fa-2x"></i></a>\n' +
-		'                        <a target="_blank" class="nav-link px-2" style="display: inline-block !important;" href="https://github.com/JTSchwartz/"><i class="fab fa-github-square fa-2x"></i></a>\n' +
+		'                        <a target="_blank" class="nav-link pr-2" aria-label="Email" style="display: inline-block !important;" href="mailto:jacob@jtschwartz.com"><i class="fas fa-envelope-square fa-2x"></i></a>\n' +
+		'                        <a target="_blank" class="nav-link px-2" aria-label="LinkedIn" style="display: inline-block !important;" href="https://www.linkedin.com/in/jacob-t-schwartz"><i class="fab fa-linkedin fa-2x"></i></a>\n' +
+		'                        <a target="_blank" class="nav-link px-2" aria-label="GitHub" style="display: inline-block !important;" href="https://github.com/JTSchwartz/"><i class="fab fa-github-square fa-2x"></i></a>\n' +
 		'                    </li>\n' +
 		'                </ul>\n' +
 		'            </div>\n' +
