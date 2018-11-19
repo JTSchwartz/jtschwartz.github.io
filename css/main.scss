@@ -2,14 +2,14 @@
 $font-family-base: 'Noto Sans', sans-serif;
 
 $theme-colors: (
-        "primary":    #0E5863,
-        "secondary":  #A3A5AA,
-        "success":   #090C9B,
-        "info":      #8884FF, //Darker option: #5D576B
-        "warning":   #C5D86D, //Orange option:#E26D5A
-        "danger":    #9E0031,
-        "light":      #DFD9E2,
-        "dark":       #160C28, //Light option: #330036, Blue option: #0D1321
+        "primary":    hsla(188, 75%, 22%, 1),
+        "secondary":  hsla(223, 4%, 65%, 1),
+        "success":   hsla(239, 89%, 32%, 1),
+        "info":      hsla(242, 100%, 76%, 1), //Darker option: #5D576B
+        "warning":   hsla(71, 58%, 64%, 1), //Orange option:#E26D5A
+        "danger":    hsla(341, 100%, 31%, 1),
+        "light":      hsla(280, 13%, 87%, 1),
+        "dark":       hsla(261, 54%, 10%, 1), //Light option: #330036, Blue option: #0D1321
 );
 
 $black: #000;
