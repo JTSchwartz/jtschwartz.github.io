@@ -17,7 +17,7 @@ $(function () {
 		'                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCurrent" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Current Projects</a>\n' +
 		'                        <div class="dropdown-menu" aria-labelledby="navbarDropdownCurrent">\n' +
 		'							  <a class="dropdown-item" href="https://jtschwartz.com/Chess/">Chess</a>\n' +
-		'							  <a class="dropdown-item" href="https://jtschwartz.com/TraceRT/">TraceRT</a>\n' +
+		'							  <a class="dropdown-item" href="https://jtschwartz.com/ToDoList/">To Do List</a>\n' +
 		'                            <a id="emptyCur" class="dropdown-item disabled d-none" href="#">Creating a To Do List...</a>\n' +
 		'                        </div>\n' +
 		'                    </li>\n' +
@@ -29,6 +29,7 @@ $(function () {
 		'                            <a class="dropdown-item" href="https://jtschwartz.com/SiteCrawler/">Site Crawler</a>\n' +
 		'                            <a class="dropdown-item" href="https://jtschwartz.com/PythOS/">PythOS</a>\n' +
 		'                            <a class="dropdown-item" href="https://jtschwartz.com/DNS-Resolver/">DNS Resolver</a>\n' +
+		'							  <a class="dropdown-item" href="https://jtschwartz.com/TraceRT/">TraceRT</a>\n' +
 		'                        </div>\n' +
 		'                    </li>\n' +
 		'                </ul>\n' +
