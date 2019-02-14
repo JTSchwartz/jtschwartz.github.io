@@ -1,5 +1,6 @@
 $(function () {
-	$('body').prepend(' <header class="sticky-top">\n' +
+	$('body').prepend(
+		' <header>\n' +
 		'        <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-primary">\n' +
 		'            <div class="navbar-brand"><strong>Jacob Schwartz</strong></div>\n' +
 		'            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">\n' +
@@ -30,6 +31,8 @@ $(function () {
 		'                            <a class="dropdown-item" href="https://jtschwartz.com/PythOS/">PythOS</a>\n' +
 		'                            <a class="dropdown-item" href="https://jtschwartz.com/DNS-Resolver/">DNS Resolver</a>\n' +
 		'							  <a class="dropdown-item" href="https://jtschwartz.com/TraceRT/">TraceRT</a>\n' +
+		'							  <a class="dropdown-item" href="https://jtschwartz.com/Diff/">Diff</a>\n' +
+		'							  <a class="dropdown-item" href="https://jtschwartz.com/Env-Go/">Env-Go</a>\n' +
 		'                        </div>\n' +
 		'                    </li>\n' +
 		'                </ul>\n' +
