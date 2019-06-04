@@ -7,7 +7,8 @@ var terminal = document.getElementById("terminal");
 var i = 0;
 var j = 0;
 var cDisp = true;
-var arr = ["Java", "Kotlin", "Python", "Go", "R", "HTML", "CSS", "JavaScript", "SQL", "Linux", "Windows", "macOS"];
+var arr = ["Looking for an Internship!"];
+// var arr = ["Java", "Kotlin", "Python", "Go", "R", "HTML", "CSS", "JavaScript", "SQL", "Linux", "Windows", "macOS"];
 
 function terminalWrite() {
 	var str = $("#terminal").text();
